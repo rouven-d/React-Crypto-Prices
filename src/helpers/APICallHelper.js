@@ -4,11 +4,18 @@
 const getPrices = async (
   //Setting parameters for the API Call
   //Defining the values of the url params for the API Call
-  ids = ["ethereum", "bitcoin", "dogecoin", "ripple", "cardano"],
+  ids = [
+    "ethereum",
+    "bitcoin",
+    "dogecoin",
+    "ripple",
+    "cardano",
+    "matic-network",
+    "stellar",
+  ],
   currencies = "eur"
 ) => {
   const url = `https://api.coingecko.com/api/v3/simple/price?ids=${ids}&vs_currencies=eur`;
-  console.log(url);
 
   try {
     const res = await fetch(url);
@@ -33,6 +40,10 @@ const getPrices = async (
       {
         name: "cardano",
         price: data.cardano.eur,
+      },
+      {
+        name: "stellar",
+        price: data.stellar.eur,
       },
     ];
     return cryptoData;
