@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #fff;
+  background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
+  background-color: #000;
 }
 
 code {

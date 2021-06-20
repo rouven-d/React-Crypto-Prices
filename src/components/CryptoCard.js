@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import "../index.css";
 
 export default function CryptoCard(props) {
   const filePath = `images/${props.name}.svg`;
