@@ -32,14 +32,28 @@ function App() {
             id="loader"
             style={{
               position: "absolute",
-              left: "50%",
+              left: "40%",
               top: "50%",
-              transform: "translate(-50%, -50%)",
+              transform: "translate(-6%, -50%)",
             }}
           />
-          <p style={{ color: "#000", fontWeight: "bold" }}>
-            © Rouven Daunke {currentYear}
-          </p>
+          <div
+            style={{
+              position: "absolute",
+              bottom: "0",
+              marginLeft: "47%",
+              transform: "translate(-63%)",
+            }}
+          >
+            <p
+              style={{
+                color: "#000",
+                fontWeight: "bold",
+              }}
+            >
+              © Rouven Daunke {currentYear}
+            </p>
+          </div>
         </>
       )}
 
