@@ -61,7 +61,6 @@ function App() {
         <>
           <Header />
           <Container
-            addClass="card-container"
             style={{
               position: "absolute",
               left: "50%",
