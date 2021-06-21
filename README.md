@@ -16,7 +16,7 @@ Displaying six currencies and their current prices updated in a 10sec interval: 
 
 ### The challenge
 
-Creating a simple card design that automatically adjusts to the amount of currencies entered into the API call. Updating the React state every 10 seconds with updated data via the API.
+Creating a simple card design that automatically adjusts to the amount of currencies entered into the API call. Updating the React state every 10 seconds with updated data via the API. Displaying an animated loader until the data is fetched according to it's interval.
 
 ### Next steps
 
