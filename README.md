@@ -2,11 +2,13 @@
 
 Simple crypto currency ticker built in React using the coingecko API.
 
+<img src="cryptoscreenshot.png">
+
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Next steps] (#next-steps)
+  - [Next steps](#next-steps)
   - [Built with](#built-with)
 - [Author](#author)
 
