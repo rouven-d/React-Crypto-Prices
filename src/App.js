@@ -31,24 +31,24 @@ function App() {
           <div
             id="loader"
             style={{
-              position: "absolute",
-              left: "40%",
-              top: "50%",
-              transform: "translate(-6%, -50%)",
+              marginRight: "auto",
+              marginLeft: "auto",
+              marginTop: "5rem",
+              marginBottom: "5rem",
             }}
           />
           <div
             style={{
-              position: "absolute",
-              bottom: "0",
-              marginLeft: "47%",
-              transform: "translate(-63%)",
+              marginBottom: "0",
+              marginLeft: "auto",
+              marginRight: "auto",
             }}
           >
             <p
               style={{
                 color: "#000",
                 fontWeight: "bold",
+                textAlign: "center",
               }}
             >
               © Rouven Daunke {currentYear}
@@ -62,10 +62,10 @@ function App() {
           <Header />
           <Container
             style={{
-              position: "absolute",
-              left: "50%",
-              top: "50%",
-              transform: "translate(-50%, -50%)",
+              marginRight: "auto",
+              marginLeft: "auto",
+              marginTop: "5rem",
+              marginBottom: "5rem",
             }}
           >
             <Row>
@@ -82,16 +82,16 @@ function App() {
           </Container>
           <div
             style={{
-              position: "absolute",
-              bottom: "0",
-              marginLeft: "47%",
-              transform: "translate(-63%)",
+              marginBottom: "0",
+              marginLeft: "auto",
+              marginRight: "auto",
             }}
           >
             <p
               style={{
                 color: "#000",
                 fontWeight: "bold",
+                textAlign: "center",
               }}
             >
               © Rouven Daunke {currentYear}

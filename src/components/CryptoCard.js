@@ -13,7 +13,10 @@ export default function CryptoCard(props) {
         style={{
           width: "18rem",
           textAlign: "center",
-          margin: "1rem",
+          marginLeft: "auto",
+          marginRight: "auto",
+          marginTop: "1rem",
+          marginBottom: "1rem",
           borderRadius: "15px",
         }}
       >

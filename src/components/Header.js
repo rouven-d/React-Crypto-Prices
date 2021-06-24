@@ -10,8 +10,8 @@ export default function Header() {
             fontSize: "3rem",
             fontFamily: "Helvetica Neue",
             fontWeight: "bold",
-            marginLeft: "47%",
-            transform: "translate(-63%)",
+            marginLeft: "auto",
+            marginRight: "auto",
           }}
         >
           Crypto Ticker
